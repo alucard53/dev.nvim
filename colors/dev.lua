@@ -1,0 +1,21 @@
+vim.cmd [[hi clear]]
+vim.cmd("set t_Co=256")
+
+vim.cmd [[let g:colors_name='dev']]
+
+vim.cmd [[hi Normal guibg='#1b2028' guifg='white']]
+vim.cmd [[hi Visual guibg='#4b5975' guifg='white']]
+vim.cmd [[hi CurSearch guibg='#ff463a' guifg='white']]
+vim.cmd [[hi String guifg='#14d8ff']]
+vim.cmd [[hi Function guifg='#dadac2']]
+vim.cmd [[hi Special guifg='#23a9d5']]
+vim.cmd [[hi Constant guifg='#AFd8ff']]
+vim.cmd [[hi Delimiter guifg='#dde5ff']]
+vim.cmd [[hi netrwPlain guifg='#white']]
+vim.cmd [[hi Directory guifg='#23a9d5']]
+vim.cmd [[hi Comment guifg='#4b5975']]
+vim.cmd [[hi Error guifg='#b81b2c']]
+vim.cmd [[hi ErrorMsg guifg='#b81b2c']]
+vim.cmd [[hi DiagnosticError guifg='#b81b2c']]
+vim.cmd [[hi DiagnosticErrorMsg guifg='#ff1b2c']]
+vim.cmd [[hi Identifier guifg='#23a9d5']]
